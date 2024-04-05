@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Escolinha</title>
+
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+ 	
+    <!-- Main Header-->
+    <header class="main-header">
+
+        <!--Top-bar -->
+        <div class="header-top">
+            <div class="auto-container">
+                <div class="inner-container clearfix">
+                    <div class="top-left">
+                        <ul class="clearfix">
+                            <li><i class="flaticon-phone-auricular-with-high-volume"></i>Tel: 3681-0000</li>
+                            <li><i class="flaticon-black"></i>escolinha@hotmail.com</li>
+                            <li><i class="flaticon-map-marker-1"></i>Rua Tres Sao Jose do Rio Pardo</li>
+                        </ul>
+                    </div>
+                    <div class="top-right">
+
+                        <ul class="social-icon-one clearfix">
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                            <li><a href="#"><span class="fa fa-pinterest-p"></span></a></li>
+                        </ul>
+
+                        <!--Search Box-->
+                        <div class="search-box-outer">
+                            <!--Search Box-->
+                            <div class="dropdown dropdown-outer">
+                                <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-search"></span></button>
+                                <ul class="dropdown-menu pull-right search-panel" aria-labelledby="Menu">
+                                    <li class="panel-outer">
+                                        <div class="form-container">
+                                            <form method="post" action="blog.html">
+                                                <div class="form-group">
+                                                    <input type="search" name="field-name" value="" placeholder="Procure aqui" required="">
+                                                    <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--End earch Box-->
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <!-- Main Box -->
+        <div class="header-lower">
+            <div class="auto-container">
+        	   <div class="main-box clearfix">
+                    <!--Logo Box-->
+                    <div class="logo-box">
+                        <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                    </div>
+                    <!--Nav Outer-->
+                    <div class="nav-outer clearfix">
+                        <!-- Main Menu -->
+                        <nav class="main-menu">
+                            <div class="navbar-header">
+                                <!-- Toggle Button -->    	
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            
+                            <div class="navbar-collapse collapse clearfix">
+                                <ul class="navigation clearfix">
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li class="current"><a href="about.html">Sobre nós</a></li>
+                                    <li class="dropdown"><a href="#">Cursos</a>
+                                        <ul>
+                                            <li><a href="courses.html">Todos os cursos</a></li>
+                                            <li><a href="course-detail.html">Correspondência de letras</a></li>
+                                            <li><a href="course-detail.html">Habilidades de aprendizagem avançadas</a></li>
+                                            <li><a href="course-detail.html">Arte e Design</a></li>
+                                            <li><a href="course-detail.html">Pintura colorida</a></li>
+                                            <li><a href="course-detail.html">Detalhe do Curso</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Galeria</a>
+                                        <ul>
+                                            <li><a href="gallery.html">Galeria Três Colunas</a></li>
+                                            <li><a href="gallery-fullwidth.html">Galeria de largura total</a></li>
+                                        </ul>
+                                    </li>                       
+                                    <li class="dropdown"><a href="#">Notícia</a>
+                                        <ul>
+                                            <li><a href="blog.html">Nosso blog</a></li>
+                                            <li><a href="blog-single.html">Detalhes da postagem do blog</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contate-Nos</a></li>
+                                 </ul>
+                            </div>
+                        </nav>
+                        <!-- Main Menu End-->
+                        
+                        <!-- Call btn -->
+                        <div class="btn-box">
+                            <a href="contact.html" class="call-btn" title="">Inscreva-se agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sticky Header -->
+        <div class="sticky-header">
+            <div class="auto-container clearfix">
+                <!--Logo-->
+                <div class="logo pull-left">
+                    <a href="index.html" title=""><img src="images/logo.png" alt="" title=""></a>
+                </div>
+                <!--Right Col-->
+                <div class="pull-right">
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li><a href="index.html">Inicio</a></li>
+                                <li class="current"><a href="about.html">Sobre nós</a></li>
+                                <li class="dropdown"><a href="#">Cursos</a>
+                                    <ul>
+                                        <li><a href="courses.html">Todos os cursos</a></li>
+                                        <li><a href="course-detail.html">Correspondência de letras</a></li>
+                                        <li><a href="course-detail.html">Habilidades de aprendizagem avançadas</a></li>
+                                        <li><a href="course-detail.html">Arte e Design</a></li>
+                                        <li><a href="course-detail.html">Pintura colorida</a></li>
+                                        <li><a href="course-detail.html">Detalhe do Curso</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#">Galeria</a>
+                                    <ul>
+                                        <li><a href="gallery.html">Galeria Três Colunas </a></li>
+                                        <li><a href="gallery-fullwidth.html">Galeria de largura total</a></li>
+                                    </ul>
+                                </li>                       
+                                <li class="dropdown"><a href="#">Notícia</a>
+                                    <ul>
+                                        <li><a href="blog.html">Nosso blog</a></li>
+                                        <li><a href="blog-single.html">Detalhes da postagem do blog</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contate-Nos</a></li>
+                             </ul>
+                        </div>
+                    </nav><!-- Main Menu End-->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End Main Header -->
+
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url(images/background/6.jpg);">
+        <div class="auto-container">
+            <div class="anim-icons">
+                <span class="icon-1 icon-flower-1"></span>
+                <span class="icon-2 icon-pencil"></span>
+            </div>
+            <h1 class="text-sky">Sobre nós</h1>
+            <ul class="bread-crumb clearfix">
+                <li><a href="index.html">Inicio</a></li>
+                <li>Sobre nós</li>
+            </ul>
+        </div>
+    </section>
+    <!--End Page Title-->
+
+    <!-- School Info Section -->
+    <section class="info-section">
+        <div class="auto-container">
+            <div class="intro-text text-center">
+                <h2>Uma escola amigável com orgulho de seus alunos</h2>
+                <h4>EveryDay Care para seus filhos...</h4>
+                <div class="anim-icon"><span class="icon icon-star"></span></div>
+                <p>Cenoura sopa de tomate occaecat na estrada a qualquer momento pode ter chegado a divertir nostrud filme em um confuso Cross rebates liquidar em occaecat vitalidade trabalho nostrud exercício, o distrito escolar pode não funcionar aliquip desses produtos. Cross dever de casa foi criticado pelo consumidor cupidatat querer ser um jogador de futebol americano não produz nenhum prazer resultante com a dor. </p>
+            </div>
+            <div class="row clearfix">
+                <!-- Info Block -->
+                <div class="info-block col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="icon-box"><img src="images/resource/info-1.png" alt=""></div>
+                        <h3><a href="about.html">Ambiente de aprendizagem</a></h3>
+                        <p>Você por vir, quem nostrud exercitar, o distrito escolar aliquip trabalhar apenas se a garantia do consumidor repreender cupidatat.</p>
+                    </div>
+                </div>
+
+                <!-- Info Block -->
+                <div class="info-block col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="icon-box"><img src="images/resource/info-2.png" alt=""></div>
+                        <h3><a href="about.html">Professores Profissionais</a></h3>
+                        <p>Você por vir, quem nostrud exercitar, o distrito escolar aliquip trabalhar apenas se a garantia do consumidor repreender cupidatat.</p>
+                    </div>
+                </div>
+
+                <!-- Info Block -->
+                <div class="info-block col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="icon-box"><img src="images/resource/info-3.png" alt=""></div>
+                        <h3><a href="about.html">Programas para todos</a></h3>
+                        <p>Você por vir, quem nostrud exercitar, o distrito escolar aliquip trabalhar apenas se a garantia do consumidor repreender cupidatat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Info Section -->
+
+    <!-- Video Feature Section -->
+    <section class="video-feature-sec">
+        <div class="clearfix">
+            <div class="video-column">
+                <div class="inner-column clearfix">
+                    <div class="layer-image" style="background-image: url(images/resource/video-bg.jpg);"></div>
+                    <div class="video-box wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <img src="images/resource/video-img.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-btn" data-fancybox="gallery" data-caption=""><span class="play-icon"></span>Play Video </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-column">
+                <div class="inner-column">
+                    <div class="sec-title">
+                        <h2>Nós somos<span class="text-parrot">Confiante</span> &amp; Desenvolver <span class="text-sky">Habilidades para a vida</span></h2>
+                    </div>
+                    <h4>Cada dia cuide de seus filhos...</h4>
+                    <p>Para alguns utas dolor sit amet consectetur elit eu venho, no tempo de um homem salvo, mas no próprio eiusmod nostrud e vitalidade, a fim de divertir amet consectetur tempor labore et dolore magna descontos aliquat eiusmod para a calma.</p>
+                    <div class="btn-box">
+                        <a href="#" class="theme-btn btn-style-one">Inscreva-se agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video Feature Section -->
+
+    <!--Fun Facts Section-->
+    <section class="fact-counter-section" style="background-image:url(images/background/7.jpg);">
+        <div class="auto-container">
+            <div class="anim-icons">
+                <span class="icon icon-pencil"></span>
+                <span class="icon icon-star-2"></span>
+                <span class="icon icon-moon"></span>
+                <span class="icon icon-star"></span>
+                <span class="icon icon-flower-2"></span>
+            </div>
+
+            <!-- Fact Counter -->
+            <div class="fact-counter">
+                <div class="row clearfix">
+                    <!--Column-->
+                    <div class="column col-md-3 col-sm-6 col-xs-12">
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="1000" data-stop="206">0</span>
+                            <h4 class="counter-title">Alunos Felizes</h4>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="column col-md-3 col-sm-6 col-xs-12">
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="3500" data-stop="5684">0</span>
+                            <h4 class="counter-title">Horário de Ensino</h4>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="column col-md-3 col-sm-6 col-xs-12">
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="2000" data-stop="730">0</span>
+                            <h4 class="counter-title">Dias de aprendizagem</h4>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="column col-md-3 col-sm-6 col-xs-12">
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="2500" data-stop="1572">0</span>
+                            <h4 class="counter-title">Métodos Inovadores</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Fun Facts -->
+
+    <!-- Learning Skills -->
+    <section class="learning-skills">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <span class="icon-1 doll-4 wow tada" data-wow-duration="1500ms" data-wow-delay="0ms"></span>
+                <span class="icon-2 icon-star-2 wow zoomInStable" data-wow-duration="1500ms" data-wow-delay="0ms"></span>
+                <h2><span class="text-orange">Aprendendo</span> Habilidades</h2>
+                <p>Cenoura sopa de tomate occaecat na estrada a qualquer momento virá para utas nostrud Ralph Cross mainstream onsectetur descontos acalmar occaecat vitalidade no trabalho</p>
+            </div>
+
+            <div class="row clearfix">
+                <div class="left-column col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-column">
+                        <div class="skill-block">
+                            <div class="inner">
+                                <img src="images/resource/skill-1.png" alt="" class="icon">
+                                <h4><a href="#">Responsabilidade</a></h4>
+                                <p>Eu venho, no tempo de tempor enim dolor amet consectetur elit eiusmod qualquer um, exceto o próprio Deus.</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-block">
+                            <div class="inner">
+                                <img src="images/resource/skill-2.png" alt="" class="icon">
+                                <h4><a href="#">Trabalho em equipe</a></h4>
+                                <p>Qualquer homem virá no tempo do tempor enim dolor amet consectetur elit, mas ao contrário do eiusmod.</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-block">
+                            <div class="inner">
+                                <img src="images/resource/skill-3.png" alt="" class="icon">
+                                <h4><a href="#">Comunicação</a></h4>
+                                <p>Eu venho, no tempo de tempor enim dolor amet consectetur elit eiusmod qualquer um, exceto o próprio Deus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="right-column pull-right col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-column">
+                        <div class="skill-block">
+                            <div class="inner">
+                                <img src="images/resource/skill-4.png" alt="" class="icon">
+                                <h4><a href="#">Independência</a></h4>
+                                <p>Qualquer homem virá no tempo do tempor enim dolor amet consectetur elit, mas ao contrário do eiusmod.</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-block">
+                            <div class="inner">
+                                <img src="images/resource/skill-5.png" alt="" class="icon">
+                                <h4><a href="#">Motivação</a></h4>
+                                <p>Eu venho, no tempo de tempor enim dolor amet consectetur elit eiusmod qualquer um, exceto o próprio Deus.</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-block">
+                            <div class="inner">
+                                <img src="images/resource/skill-6.png" alt="" class="icon">
+                                <h4><a href="#">Inquiring Mind</a></h4>
+                                <p>Eu venho, no tempo de tempor enim dolor amet consectetur elit eiusmod qualquer um, exceto o próprio Deus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="center-image col-md-4 col-sm-12 col-xs-12">
+                    <div class="inner-box">
+                        <figure class="image"><img src="images/resource/image-3.jpg" alt=""></figure>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Learning Skills -->
+
+    <!-- Staff Section -->
+    <section class="staff-section">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <span class="icon-1 doll-5"></span>
+                <span class="icon-2 icon-pencil-2"></span>
+                <h2><span class="text-sky">Professores</span> Funcionárias</h2>
+                <p>Sopa de tomate cenoura usmodi a estrada a qualquer momento virá para utas</p>
+            </div>
+
+            <div class="row clearfix">
+                <!-- Staff Block -->
+                <div class="staff-block col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box wow fadeInDown" data-wow-duration="1500ms" data-wow-delay="0ms"><a href="#"><img src="images/resource/staff-1.jpg" alt=""></a></div>
+                        <div class="info-box">
+                            <h3><a href="about.html">Maria</a></h3>
+                            <p>Fundadora&amp; Cabeça</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Staff Block -->
+                <div class="staff-block col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box wow fadeInDown" data-wow-duration="1500ms" data-wow-delay="300ms"><a href="#"><img src="images/resource/staff-2.jpg" alt=""></a></div>
+                        <div class="info-box">
+                            <h3><a href="about.html">Ana</a></h3>
+                            <p>Instrutor esportivo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Staff Block -->
+                <div class="staff-block col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box wow fadeInDown" data-wow-duration="1500ms" data-wow-delay="600ms"><a href="#"><img src="images/resource/staff-3.jpg" alt=""></a></div>
+                        <div class="info-box">
+                            <h3><a href="about.html">Maria</a></h3>
+                            <p>Professor primário</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Staff Section -->
+    
+    <!-- Subscribe Section -->
+    <section class="subscribe-section" style="background-image: url(images/background/5.jpg);">
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="title-column col-md-7 col-sm-12 col-xs-12">
+                    <h2>Assine a nossa newsletter</h2>
+                    <p>Digite seu e-mail e enviaremos detalhes sobre novos cursos e eventos.</p>
+                </div>
+
+                <div class="form-column col-md-5 col-sm-12 col-xs-12">
+                    <div class="subscribe-form">
+                        <form method="post" action="contact.html">
+                            <div class="form-group">
+                                <input type="email" name="email" value="" placeholder="Digite seu e-mail" required="">
+                                <button type="submit" class="theme-btn btn-style-one">Se inscrever</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Subscribe Section -->
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+        <div class="auto-container">
+            <!--Widgets Section-->
+            <div class="widgets-section">
+                <div class="row clearfix">
+                    
+                    <!--Footer Column-->
+                    <div class="footer-column col-md-4 col-sm-12 col-xs-12">
+                        <div class="footer-widget about-widget">
+                            <div class="footer-logo">
+                                <figure><a href="index.html"><img src="images/footer-logo.png" alt=""></a></figure> 
+                            </div>
+                            <div class="widget-content">
+                                <p>Minneapolis tem muito para divertir os clientes e vitalidade, eiusmod tempord algumas utas o trabalho de um homem, e uma ótima ideia, mas a própria aliquat nostrud.</p>
+                                <span class="icon icon-sparrow"></span>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <!--Footer Column-->
+                    <div class="footer-column col-md-4 col-sm-6 col-xs-12">
+                        <div class="footer-widget posts-widget">
+                            <h2 class="widget-title">Postagens recentes</h2>
+                            <div class="widget-content">
+                                <div class="posts">
+                                    <div class="post">
+                                        <figure class="post-thumb">
+                                            <img src="images/resource/thumb-2.png" alt="">
+                                            <a href="blog-single.html" class="overlay-link">
+                                                <span class="fa fa-link"></span>
+                                            </a>
+                                        </figure>
+                                        <div class="desc-text">
+                                            <a href="blog-single.html">Estamos comemorando o dia da necessidade</a>
+                                        </div>
+                                        <div class="info"><i class="fa fa-user"></i> De <span> Maria</span></div>
+                                    </div>
+
+                                    <div class="post">
+                                        <figure class="post-thumb">
+                                            <img src="images/resource/thumb-3.png" alt="">
+                                            <a href="blog-single.html" class="overlay-link">
+                                                <span class="fa fa-link"></span>
+                                            </a>
+                                        </figure>
+                                        <div class="desc-text">
+                                            <a href="blog-single.html">O evento de financiamento de esportes está AO VIVO</a>
+                                        </div>
+                                        <div class="info"><i class="fa fa-user"></i> De<span> Maria</span></div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Footer Column-->
+                    <div class="footer-column col-md-4 col-sm-6 col-xs-12">
+                        <div class="footer-widget contact-widget">
+                            <h2 class="widget-title">Contato</h2>
+                            <div class="widget-content">
+                                <ul class="contact-info-list">
+                                    <li><i class="flaticon-phone-auricular-with-high-volume"></i>Tel: 3608-0000</li>
+                                    <li><i class="flaticon-map-marker-1"></i><Ri:a>Rua Tres Sao Jose do Rio Pardo</Ri:a></li>
+                                    <li><i class="flaticon-black"></i>escolinha@hotmail.com</li>
+                                </ul>
+
+                                <ul class="social-icon-two">
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+
+                                <span class="icon icon-heart"></span>
+                            </div>       
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <!--Footer Bottom-->
+        <div class="footer-bottom">
+            <div class="auto-container">
+                <div class="clearfix">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2021 <a href="index.html">Todos os direitos reservados.</p>
+                    </div>
+                    
+                    <ul class="footer-links clearfix">
+                        <li><a href="#">Termos &amp; Condições</a></li>
+                        <li><a href="#">Política de Segurança de Privacidade</a></li>
+                        <li><a href="#">Mapa do site</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Main Footer -->
+    
+</div>
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-double-up"></span></div>
+
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/mixitup.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
